@@ -56,7 +56,7 @@ def grounded_answer(req: Request):
         return {
             "answer": "I don't know",
             "citations": [],
-            "confidence": 0.2,
+            "confidence": 0.0,
             "answerable": False
         }
 
